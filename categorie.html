@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a7b218ddd5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <nav class="d-lg-block d-none">
+        <div class="container-fluid">
+            <div class="row top-nav">
+                <div class="col-4">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nous contacter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 pt-2 pb-2 pl-4 pr-4">
+                    <a href="#">
+                        <img src="assets/img/1 638.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service de réparation </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link phone-link" href="#">
+                                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.6503 3.56321L10.7218 3.9346V3.9346L11.6503 3.56321ZM13.2756 7.62652L14.2041 7.25513L13.2756 7.62652ZM12.7815 10.7455L13.5497 11.3857L12.7815 10.7455ZM11.9068 11.7952L12.675 12.4354V12.4354L11.9068 11.7952ZM12.0952 15.9494L11.3881 16.6565L12.0952 15.9494ZM15.0506 18.9048L15.7577 18.1977V18.1977L15.0506 18.9048ZM19.2048 19.0932L18.5646 18.325L19.2048 19.0932ZM20.2545 18.2185L20.8946 18.9867L20.8946 18.9867L20.2545 18.2185ZM23.3735 17.7244L23.0021 18.6529L23.3735 17.7244ZM27.4368 19.3497L27.8082 18.4212H27.8082L27.4368 19.3497ZM4.54605 2.625H8.78748V0.625H4.54605V2.625ZM10.7218 3.9346L12.3471 7.99791L14.2041 7.25513L12.5788 3.19182L10.7218 3.9346ZM12.0133 10.1054L11.1385 11.155L12.675 12.4354L13.5497 11.3857L12.0133 10.1054ZM11.3881 16.6565L14.3435 19.6119L15.7577 18.1977L12.8023 15.2423L11.3881 16.6565ZM19.845 19.8615L20.8946 18.9867L19.6143 17.4503L18.5646 18.325L19.845 19.8615ZM23.0021 18.6529L27.0654 20.2782L27.8082 18.4212L23.7449 16.7959L23.0021 18.6529ZM28.375 22.2125V26.4539H30.375V22.2125H28.375ZM26.4539 28.375C13.2936 28.375 2.625 17.7064 2.625 4.54605H0.625C0.625 18.811 12.189 30.375 26.4539 30.375V28.375ZM28.375 26.4539C28.375 27.5149 27.5149 28.375 26.4539 28.375V30.375C28.6195 30.375 30.375 28.6195 30.375 26.4539H28.375ZM27.0654 20.2782C27.8564 20.5946 28.375 21.3606 28.375 22.2125H30.375C30.375 20.5428 29.3584 19.0413 27.8082 18.4212L27.0654 20.2782ZM20.8946 18.9867C21.4825 18.4969 22.2916 18.3687 23.0021 18.6529L23.7449 16.7959C22.3523 16.2389 20.7665 16.4901 19.6143 17.4503L20.8946 18.9867ZM14.3435 19.6119C15.8369 21.1053 18.2226 21.2135 19.845 19.8615L18.5646 18.325C17.7368 19.0148 16.5197 18.9596 15.7577 18.1977L14.3435 19.6119ZM11.1385 11.155C9.78652 12.7775 9.89474 15.1631 11.3881 16.6565L12.8023 15.2423C12.0404 14.4803 11.9852 13.2632 12.675 12.4354L11.1385 11.155ZM12.3471 7.99791C12.6313 8.7084 12.5031 9.51751 12.0133 10.1054L13.5497 11.3857C14.5099 10.2335 14.7611 8.64769 14.2041 7.25513L12.3471 7.99791ZM8.78748 2.625C9.63937 2.625 10.4054 3.14365 10.7218 3.9346L12.5788 3.19182C11.9587 1.64155 10.4572 0.625 8.78748 0.625V2.625ZM4.54605 0.625C2.38051 0.625 0.625 2.38052 0.625 4.54605H2.625C2.625 3.48508 3.48508 2.625 4.54605 2.625V0.625Z" fill="black"/>
+                                </svg> 01 69 21 44 14
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row bottom-nav">
+                <div class="col-3 bottom-nav-item">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nouveautés</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Top-Ventes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 bottom-nav-item justify-content-center">
+                    <div class="nav-search-box">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 34C27.732 34 34 27.732 34 20C34 12.268 27.732 6 20 6C12.268 6 6 12.268 6 20C6 27.732 12.268 34 20 34Z" stroke="#0066CC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30 30L42 42" stroke="#0066CC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <input type="text" placeholder="Rechercher">
+                    </div>
+                </div>
+                <div class="col-3 bottom-nav-item justify-content-end">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg width="42" height="42" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M30 52.5C42.4264 52.5 52.5 42.4264 52.5 30C52.5 17.5736 42.4264 7.5 30 7.5C17.5736 7.5 7.5 17.5736 7.5 30C7.5 42.4264 17.5736 52.5 30 52.5Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M43.0412 48.3307C39.8369 44.752 35.1812 42.5 29.9996 42.5C24.818 42.5 20.1623 44.752 16.958 48.3307" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M30 35C34.1421 35 37.5 31.6421 37.5 27.5C37.5 23.3579 34.1421 20 30 20C25.8579 20 22.5 23.3579 22.5 27.5C22.5 31.6421 25.8579 35 30 35Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg width="42" height="42" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29.5 49.1667L28.7701 50.4771C29.2239 50.7299 29.7761 50.7299 30.2299 50.4771L29.5 49.1667ZM29.5 17.6071L28.1195 18.1938C28.3548 18.7475 28.8983 19.1071 29.5 19.1071C30.1017 19.1071 30.6452 18.7475 30.8805 18.1938L29.5 17.6071ZM5.875 22.057C5.875 30.1492 11.8717 37.3153 17.4396 42.2769C20.2712 44.8003 23.0959 46.8448 25.2095 48.2573C26.2677 48.9646 27.1513 49.5159 27.7732 49.8919C28.0842 50.08 28.33 50.2243 28.4997 50.3227C28.5846 50.3718 28.6504 50.4095 28.696 50.4353C28.7187 50.4482 28.7364 50.4582 28.7488 50.4652C28.755 50.4687 28.7599 50.4714 28.7635 50.4734C28.7653 50.4744 28.7667 50.4752 28.7678 50.4758C28.7684 50.4761 28.769 50.4765 28.7692 50.4766C28.7697 50.4769 28.7701 50.4771 29.5 49.1667C30.2299 47.8562 30.2301 47.8563 30.2303 47.8564C30.2302 47.8564 30.2303 47.8564 30.2302 47.8564C30.2299 47.8562 30.2294 47.8559 30.2285 47.8554C30.2267 47.8544 30.2235 47.8527 30.2191 47.8502C30.2103 47.8452 30.1962 47.8373 30.1771 47.8264C30.1389 47.8047 30.0805 47.7714 30.0034 47.7267C29.849 47.6373 29.6194 47.5025 29.3255 47.3247C28.7374 46.9691 27.8925 46.4421 26.8765 45.7631C24.8416 44.4031 22.135 42.4428 19.4354 40.0372C13.9408 35.1407 8.875 28.752 8.875 22.057H5.875ZM30.8805 17.0204C28.1504 10.596 21.9556 7.65815 16.3793 8.46372C13.5844 8.86748 10.9364 10.2144 8.99156 12.5322C7.04259 14.8549 5.875 18.0611 5.875 22.057H8.875C8.875 18.6593 9.85845 16.1663 11.2897 14.4606C12.725 12.75 14.6865 11.7394 16.8082 11.4329C21.0652 10.8179 25.933 13.0487 28.1195 18.1938L30.8805 17.0204ZM50.125 22.057C50.125 28.752 45.0592 35.1407 39.5646 40.0372C36.865 42.4428 34.1584 44.4031 32.1235 45.7631C31.1075 46.4421 30.2626 46.9691 29.6745 47.3247C29.3806 47.5025 29.151 47.6373 28.9966 47.7267C28.9195 47.7714 28.8611 47.8047 28.8229 47.8264C28.8038 47.8373 28.7897 47.8452 28.7809 47.8502C28.7765 47.8527 28.7733 47.8544 28.7715 47.8554C28.7706 47.8559 28.7701 47.8562 28.7698 47.8564C28.7697 47.8564 28.7698 47.8564 28.7697 47.8564C28.7699 47.8563 28.7701 47.8562 29.5 49.1667C30.2299 50.4771 30.2303 50.4769 30.2308 50.4766C30.231 50.4765 30.2316 50.4761 30.2322 50.4758C30.2333 50.4752 30.2347 50.4744 30.2365 50.4734C30.2401 50.4714 30.245 50.4687 30.2512 50.4652C30.2636 50.4582 30.2813 50.4482 30.304 50.4353C30.3496 50.4095 30.4154 50.3718 30.5003 50.3227C30.67 50.2243 30.9158 50.08 31.2268 49.8919C31.8487 49.5159 32.7323 48.9646 33.7905 48.2573C35.9041 46.8448 38.7288 44.8003 41.5604 42.2769C47.1283 37.3153 53.125 30.1492 53.125 22.057H50.125ZM30.8805 18.1938C33.067 13.0487 37.9348 10.8179 42.1918 11.4329C44.3135 11.7394 46.275 12.75 47.7103 14.4606C49.1415 16.1663 50.125 18.6593 50.125 22.057H53.125C53.125 18.0611 51.9574 14.8549 50.0084 12.5322C48.0636 10.2144 45.4156 8.86748 42.6207 8.46372C37.0444 7.65815 30.8496 10.596 28.1195 17.0204L30.8805 18.1938Z" fill="black"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg width="42" height="42" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M41.792 49.1667C41.792 47.809 42.8926 46.7083 44.2503 46.7083C45.608 46.7083 46.7087 47.809 46.7087 49.1667C46.7087 50.5244 45.608 51.625 44.2503 51.625C42.8926 51.625 41.792 50.5244 41.792 49.1667Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M17.208 49.1667C17.208 47.809 18.3086 46.7083 19.6663 46.7083C21.024 46.7083 22.1247 47.809 22.1247 49.1667C22.1247 50.5244 21.024 51.625 19.6663 51.625C18.3086 51.625 17.208 50.5244 17.208 49.1667Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.375 7.375H9.2623C10.4479 7.375 11.4645 8.22116 11.6798 9.38703L17.2083 39.3333" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.5205 14.75H48.5344C50.1153 14.75 51.2853 16.2207 50.9298 17.7611L46.3913 37.4278C46.1339 38.5432 45.1407 39.3333 43.996 39.3333H17.208" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav id="mobile-nav" class="d-lg-none d-block">
+        <div class="container-fluid">
+            <div class="row pt-3 pb-3">
+                <div class="col-5 d-flex align-items-center">
+                    <a href="#">
+                        <img src="assets/img/1 638.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-7 bottom-nav-item justify-content-end">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg width="42" height="42" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M30 52.5C42.4264 52.5 52.5 42.4264 52.5 30C52.5 17.5736 42.4264 7.5 30 7.5C17.5736 7.5 7.5 17.5736 7.5 30C7.5 42.4264 17.5736 52.5 30 52.5Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M43.0412 48.3307C39.8369 44.752 35.1812 42.5 29.9996 42.5C24.818 42.5 20.1623 44.752 16.958 48.3307" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M30 35C34.1421 35 37.5 31.6421 37.5 27.5C37.5 23.3579 34.1421 20 30 20C25.8579 20 22.5 23.3579 22.5 27.5C22.5 31.6421 25.8579 35 30 35Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg width="42" height="42" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29.5 49.1667L28.7701 50.4771C29.2239 50.7299 29.7761 50.7299 30.2299 50.4771L29.5 49.1667ZM29.5 17.6071L28.1195 18.1938C28.3548 18.7475 28.8983 19.1071 29.5 19.1071C30.1017 19.1071 30.6452 18.7475 30.8805 18.1938L29.5 17.6071ZM5.875 22.057C5.875 30.1492 11.8717 37.3153 17.4396 42.2769C20.2712 44.8003 23.0959 46.8448 25.2095 48.2573C26.2677 48.9646 27.1513 49.5159 27.7732 49.8919C28.0842 50.08 28.33 50.2243 28.4997 50.3227C28.5846 50.3718 28.6504 50.4095 28.696 50.4353C28.7187 50.4482 28.7364 50.4582 28.7488 50.4652C28.755 50.4687 28.7599 50.4714 28.7635 50.4734C28.7653 50.4744 28.7667 50.4752 28.7678 50.4758C28.7684 50.4761 28.769 50.4765 28.7692 50.4766C28.7697 50.4769 28.7701 50.4771 29.5 49.1667C30.2299 47.8562 30.2301 47.8563 30.2303 47.8564C30.2302 47.8564 30.2303 47.8564 30.2302 47.8564C30.2299 47.8562 30.2294 47.8559 30.2285 47.8554C30.2267 47.8544 30.2235 47.8527 30.2191 47.8502C30.2103 47.8452 30.1962 47.8373 30.1771 47.8264C30.1389 47.8047 30.0805 47.7714 30.0034 47.7267C29.849 47.6373 29.6194 47.5025 29.3255 47.3247C28.7374 46.9691 27.8925 46.4421 26.8765 45.7631C24.8416 44.4031 22.135 42.4428 19.4354 40.0372C13.9408 35.1407 8.875 28.752 8.875 22.057H5.875ZM30.8805 17.0204C28.1504 10.596 21.9556 7.65815 16.3793 8.46372C13.5844 8.86748 10.9364 10.2144 8.99156 12.5322C7.04259 14.8549 5.875 18.0611 5.875 22.057H8.875C8.875 18.6593 9.85845 16.1663 11.2897 14.4606C12.725 12.75 14.6865 11.7394 16.8082 11.4329C21.0652 10.8179 25.933 13.0487 28.1195 18.1938L30.8805 17.0204ZM50.125 22.057C50.125 28.752 45.0592 35.1407 39.5646 40.0372C36.865 42.4428 34.1584 44.4031 32.1235 45.7631C31.1075 46.4421 30.2626 46.9691 29.6745 47.3247C29.3806 47.5025 29.151 47.6373 28.9966 47.7267C28.9195 47.7714 28.8611 47.8047 28.8229 47.8264C28.8038 47.8373 28.7897 47.8452 28.7809 47.8502C28.7765 47.8527 28.7733 47.8544 28.7715 47.8554C28.7706 47.8559 28.7701 47.8562 28.7698 47.8564C28.7697 47.8564 28.7698 47.8564 28.7697 47.8564C28.7699 47.8563 28.7701 47.8562 29.5 49.1667C30.2299 50.4771 30.2303 50.4769 30.2308 50.4766C30.231 50.4765 30.2316 50.4761 30.2322 50.4758C30.2333 50.4752 30.2347 50.4744 30.2365 50.4734C30.2401 50.4714 30.245 50.4687 30.2512 50.4652C30.2636 50.4582 30.2813 50.4482 30.304 50.4353C30.3496 50.4095 30.4154 50.3718 30.5003 50.3227C30.67 50.2243 30.9158 50.08 31.2268 49.8919C31.8487 49.5159 32.7323 48.9646 33.7905 48.2573C35.9041 46.8448 38.7288 44.8003 41.5604 42.2769C47.1283 37.3153 53.125 30.1492 53.125 22.057H50.125ZM30.8805 18.1938C33.067 13.0487 37.9348 10.8179 42.1918 11.4329C44.3135 11.7394 46.275 12.75 47.7103 14.4606C49.1415 16.1663 50.125 18.6593 50.125 22.057H53.125C53.125 18.0611 51.9574 14.8549 50.0084 12.5322C48.0636 10.2144 45.4156 8.86748 42.6207 8.46372C37.0444 7.65815 30.8496 10.596 28.1195 17.0204L30.8805 18.1938Z" fill="black"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg width="42" height="42" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M41.792 49.1667C41.792 47.809 42.8926 46.7083 44.2503 46.7083C45.608 46.7083 46.7087 47.809 46.7087 49.1667C46.7087 50.5244 45.608 51.625 44.2503 51.625C42.8926 51.625 41.792 50.5244 41.792 49.1667Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M17.208 49.1667C17.208 47.809 18.3086 46.7083 19.6663 46.7083C21.024 46.7083 22.1247 47.809 22.1247 49.1667C22.1247 50.5244 21.024 51.625 19.6663 51.625C18.3086 51.625 17.208 50.5244 17.208 49.1667Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.375 7.375H9.2623C10.4479 7.375 11.4645 8.22116 11.6798 9.38703L17.2083 39.3333" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.5205 14.75H48.5344C50.1153 14.75 51.2853 16.2207 50.9298 17.7611L46.3913 37.4278C46.1339 38.5432 45.1407 39.3333 43.996 39.3333H17.208" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10">
+                    <div class="search-box-sm">
+                        <input type="text" id="" placeholder="Rechercher">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.25 2C3.90279 2 2 3.90279 2 6.25C2 8.59721 3.90279 10.5 6.25 10.5C8.59721 10.5 10.5 8.59721 10.5 6.25C10.5 3.90279 8.59721 2 6.25 2ZM0 6.25C0 2.79822 2.79822 0 6.25 0C9.70178 0 12.5 2.79822 12.5 6.25C12.5 9.70178 9.70178 12.5 6.25 12.5C2.79822 12.5 0 9.70178 0 6.25Z" fill="#40BFFF"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 9.29289C9.68342 8.90237 10.3166 8.90237 10.7071 9.29289L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L9.29289 10.7071C8.90237 10.3166 8.90237 9.68342 9.29289 9.29289Z" fill="#40BFFF"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <a href="#" class="open-menu-btn">
+                        <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="30" height="4" rx="2" transform="matrix(1 0 0 -1 0 4)" fill="black"/>
+                            <rect width="30" height="4" rx="2" transform="matrix(1 0 0 -1 0 13)" fill="black"/>
+                            <rect width="30" height="4" rx="2" transform="matrix(1 0 0 -1 0 22)" fill="black"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Guitare/bass</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clavier/Pianos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Batteries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Amplis/Effets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home Studio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Micro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Librairie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DJ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eclairage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Voir plus</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="slider-container">
+                        <div class="slider-item">
+                            <a href="#">
+                                <img src="assets/img/slider bass 1.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slider-btns">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-12">
+                    <div class="slider-btns">
+                        <button class="slider-btn"></button>
+                        <button class="slider-btn"></button>
+                        <button class="slider-btn active"></button>
+                        <button class="slider-btn"></button>
+                        <button class="slider-btn"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="categorie-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <h1 class="section-title text-left">
+                        CATEGORIE
+                    </h1>
+                </div>
+                <div class="col-12">
+                    <div class="categorie-list">
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/Electrique 1.png" class="img-fluid" alt=""> Guitare
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo7 1.png" class="img-fluid" alt=""> Ampl
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 3.png" class="img-fluid" alt=""> Sonorisation
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 4.png" class="img-fluid" alt=""> Ampli Acoustique
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo20 1.png" class="img-fluid" alt=""> Effet
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/Electrique 1.png" class="img-fluid" alt=""> Guitare
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo7 1.png" class="img-fluid" alt=""> Ampl
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 3.png" class="img-fluid" alt=""> Sonorisation
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 4.png" class="img-fluid" alt=""> Ampli Acoustique
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo20 1.png" class="img-fluid" alt=""> Effet
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/Electrique 1.png" class="img-fluid" alt=""> Guitare
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo7 1.png" class="img-fluid" alt=""> Ampl
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 3.png" class="img-fluid" alt=""> Sonorisation
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 4.png" class="img-fluid" alt=""> Ampli Acoustique
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo20 1.png" class="img-fluid" alt=""> Effet
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/Electrique 1.png" class="img-fluid" alt=""> Guitare
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo7 1.png" class="img-fluid" alt=""> Ampl
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 3.png" class="img-fluid" alt=""> Sonorisation
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 4.png" class="img-fluid" alt=""> Ampli Acoustique
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo20 1.png" class="img-fluid" alt=""> Effet
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/Electrique 1.png" class="img-fluid" alt=""> Guitare
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo7 1.png" class="img-fluid" alt=""> Ampl
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 3.png" class="img-fluid" alt=""> Sonorisation
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo5 4.png" class="img-fluid" alt=""> Ampli Acoustique
+                        </a>
+                        <a href="./search.html" class="categorie-item">
+                            <img src="assets/img/logo20 1.png" class="img-fluid" alt=""> Effet
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="cat-title">
+                        Produits
+                    </h2>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="#" class="cat-plus">
+                        Voir plus
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="product-list-item">
+                                <img src="assets/img/image Product-1.png" class="img-fluid" alt="">
+                                <div>
+                                    <div class="product-list-name">
+                                        Fender Kort-Kobain
+                                    </div>
+                                    <div class="product-list-rating">
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.5431 6.75403L10.2916 10.276L11.5423 16L7.41136 12.542L3.01433 15.816L4.71312 10.156L0.74707 6.45605L5.9275 6.41602L7.87419 0.855103L9.37735 6.49109L14.5431 6.75403Z" fill="#C1C8CE"/>
+                                        </svg>
+                                    </div>
+                                    <div class="product-list-price">
+                                        <div class="current-price">
+                                            $299,43
+                                        </div>
+                                        <div class="old-price">
+                                            $534,33
+                                        </div>
+                                        <div class="off-price">
+                                            24% Off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="product-list-item">
+                                <img src="assets/img/image Product-2.png" class="img-fluid" alt="">
+                                <div>
+                                    <div class="product-list-name">
+                                        Fender Kort-Kobain
+                                    </div>
+                                    <div class="product-list-rating">
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.5431 6.75403L10.2916 10.276L11.5423 16L7.41136 12.542L3.01433 15.816L4.71312 10.156L0.74707 6.45605L5.9275 6.41602L7.87419 0.855103L9.37735 6.49109L14.5431 6.75403Z" fill="#C1C8CE"/>
+                                        </svg>
+                                    </div>
+                                    <div class="product-list-price">
+                                        <div class="current-price">
+                                            $299,43
+                                        </div>
+                                        <div class="old-price">
+                                            $534,33
+                                        </div>
+                                        <div class="off-price">
+                                            24% Off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="product-list-item">
+                                <img src="assets/img/image Product-3.png" class="img-fluid" alt="">
+                                <div>
+                                    <div class="product-list-name">
+                                        Fender Kort-Kobain
+                                    </div>
+                                    <div class="product-list-rating">
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.5431 6.75403L10.2916 10.276L11.5423 16L7.41136 12.542L3.01433 15.816L4.71312 10.156L0.74707 6.45605L5.9275 6.41602L7.87419 0.855103L9.37735 6.49109L14.5431 6.75403Z" fill="#C1C8CE"/>
+                                        </svg>
+                                    </div>
+                                    <div class="product-list-price">
+                                        <div class="current-price">
+                                            $299,43
+                                        </div>
+                                        <div class="old-price">
+                                            $534,33
+                                        </div>
+                                        <div class="off-price">
+                                            24% Off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="product-list-item">
+                                <img src="assets/img/image Product-4.png" class="img-fluid" alt="">
+                                <div>
+                                    <div class="product-list-name">
+                                        Fender Kort-Kobain
+                                    </div>
+                                    <div class="product-list-rating">
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.6427 6.75403L10.3912 10.276L11.6419 16L7.511 12.542L3.11397 15.816L4.81277 10.156L0.84668 6.45605L6.02714 6.41602L7.9738 0.855103L9.47699 6.49109L14.6427 6.75403Z" fill="#FFC600"/>
+                                        </svg>
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.5431 6.75403L10.2916 10.276L11.5423 16L7.41136 12.542L3.01433 15.816L4.71312 10.156L0.74707 6.45605L5.9275 6.41602L7.87419 0.855103L9.37735 6.49109L14.5431 6.75403Z" fill="#C1C8CE"/>
+                                        </svg>
+                                    </div>
+                                    <div class="product-list-price">
+                                        <div class="current-price">
+                                            $299,43
+                                        </div>
+                                        <div class="old-price">
+                                            $534,33
+                                        </div>
+                                        <div class="off-price">
+                                            24% Off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="popular-marks">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="popular-marks-title">
+                        Marques populaires
+                    </h1>
+                </div>
+                <div class="col-12">
+                    <div class="marks-list custom-scrollbar">
+                        <div class="mark-column">
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/2 667.png" class="img-fluid" alt="">
+                            </a>
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/4 1.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="mark-column">
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/1 635.png" class="img-fluid" alt="">
+                            </a>
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/292 1.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="mark-column">
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/213 1.png" class="img-fluid" alt="">
+                            </a>
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/3 2.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="mark-column">
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/image 59.png" class="img-fluid" alt="">
+                            </a>
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/image 58.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="mark-column">
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/2 667.png" class="img-fluid" alt="">
+                            </a>
+                            <a href="#" class="marks-item">
+                                <img src="assets/img/2 667.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="pre-footer">
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CGV / Infos légales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Politique de confidentialité</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Droit de rétractation du consomateur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Processus de commande</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Garantie légale de conformité</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mt-2 mt-md-0">
+                    <ul class="nav mb-0 mb-md-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Carrières et recrutement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Petites annonces</a>
+                        </li>
+                    </ul>
+                    <ul class="nav mt-md-4 mt-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="assets/img/app-store.png" width="200" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="assets/img/google-play.png" width="200" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
