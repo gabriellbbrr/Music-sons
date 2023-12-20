@@ -1,12 +1,12 @@
 ### Description
 
-![Texte alternatif](/assets/logo1.png "Le titre de mon image")![Texte alternatif](/assets/logo2.png "Le titre de mon image")![Texte alternatif](/assets/logo5_2.png "Le titre de mon image")
+![Texte alternatif](/assets/img/logo1.png "Le titre de mon image")![Texte alternatif](/assets/img/logo2.png "Le titre de mon image")![Texte alternatif](/assets/img/logo5_2.png "Le titre de mon image")
 
 I spearheaded a comprehensive project focused on redefining the company's digital presence through a complete overhaul of its website and visual identity. Assigned with the task of revamping the entire online platform, I undertook a journey from conceptualization to implementation, ensuring a seamless and modernized representation for the company.
 
 ### Key Features
 
-![Texte alternatif](/assets/logo4.png "Le titre de mon image")![Texte alternatif](/assets/logo5.png "Le titre de mon image")![Texte alternatif](/assets/logo6.png "Le titre de mon image")
+![Texte alternatif](/assets/img/logo4.png "Le titre de mon image")![Texte alternatif](/assets/img/logo5.png "Le titre de mon image")![Texte alternatif](/assets/img/logo6.png "Le titre de mon image")
 
 - The project initiated with an in-depth analysis and understanding of the existing website's shortcomings and the brand's essence. Collaborating closely with stakeholders, I developed detailed wireframes that laid the foundation for the site's architecture, ensuring an intuitive and user-centric design.
 
@@ -30,7 +30,7 @@ I spearheaded a comprehensive project focused on redefining the company's digita
 
 - Overall, this experience enabled me to navigate the intricate process of web design and development, showcasing my proficiency in conceptualization, design, and implementation while aligning with the company's objectives to deliver a compelling digital solution.
 
-![Texte alternatif](/assets/work4_1.png "Le titre de mon image")
+![Texte alternatif](/assets/img/work4_1.png "Le titre de mon image")
 
 ### How to Use
 
@@ -42,4 +42,4 @@ I spearheaded a comprehensive project focused on redefining the company's digita
 
 3. Run the site and enjoy.
 
-![Texte alternatif](/assets/work4_2.png "Le titre de mon image")
+![Texte alternatif](/assets/img/work4_2.png "Le titre de mon image")
